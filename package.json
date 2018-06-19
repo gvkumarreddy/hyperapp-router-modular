@@ -1,0 +1,19 @@
+{
+  "name": "hyperapp-modular-with-routing",
+  "version": "1.0.0",
+  "description":
+    "Using approach described in https://zaceno.github.io/hypercraft/post/modular-apps/.",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@hyperapp/router": "0.4.1",
+    "hyperapp": "1.2.6"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
+}
